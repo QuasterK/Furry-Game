@@ -1,0 +1,30 @@
+{
+  "name": "wro_fer_s_14_react_furry_game",
+  "version": "1.0.0",
+  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuasterK/WRO_FER_S_14_REACT_Furry_Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuasterK/WRO_FER_S_14_REACT_Furry_Game/issues"
+  },
+  "homepage": "https://github.com/QuasterK/WRO_FER_S_14_REACT_Furry_Game#readme",
+  "devDependencies": {
+    "webpack": "^4.16.3",
+    "webpack-cli": "^2.1.5"
+  },
+
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  }
+
+}
